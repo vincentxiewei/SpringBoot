@@ -7,7 +7,6 @@
 	<artifactId>springboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<!--<packaging>war</packaging>-->
 
 
 	<name>SpringBoot</name>
@@ -32,13 +31,13 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- Excluding tomcat from packaging-->
+		<!-- Excluding tomcat from packagin
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
+		-->
 		<!-- In memory Database -->
 		<dependency>
 			<groupId>com.h2database</groupId>

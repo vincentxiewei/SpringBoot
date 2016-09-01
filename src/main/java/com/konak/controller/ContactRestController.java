@@ -20,6 +20,7 @@ public class ContactRestController {
 
     @RequestMapping(method=RequestMethod.GET)
     public List<Contact> getAll() {
+        System.out.println("got in GET");
         List<Contact> target = new ArrayList<Contact>();
         repo.findAll().forEach(target::add);
         return target;
@@ -27,16 +28,20 @@ public class ContactRestController {
 
     @RequestMapping(method=RequestMethod.POST)
     public Contact create(@RequestBody Contact contact) {
+        System.out.println("got in POST");
+        System.out.println(contact.getLastName());
         return repo.save(contact);
     }
 
     @RequestMapping(method=RequestMethod.DELETE, value="{id}")
     public void delete(@PathVariable String id) {
+        System.out.println("got in DELETE");
         repo.delete(id);
     }
 
     @RequestMapping(method=RequestMethod.PUT, value="{id}")
     public Contact update(@PathVariable String id, @RequestBody Contact contact) {
+        System.out.println("got in PUT");
         Contact update = repo.findOne(id);
         update.setAddress(contact.getAddress());
         update.setEmail(contact.getEmail());
