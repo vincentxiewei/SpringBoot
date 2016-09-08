@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69dd1a2f-56cb-4a29-9700-17f3821c3e16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/konak/controller/OrderRestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/konak/model/KonakOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/konak/repository/KonakOrderRepository.java" />
+    <list default="true" id="69dd1a2f-56cb-4a29-9700-17f3821c3e16" name="Default" comment="Completed the API call for Get,GetID and POST, moved DAO to Service layer">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/konak/service/KonakOrderService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringBoot.iws" />
@@ -79,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderRestController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrderRestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/konak/controller/OrderRestController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -114,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KonakOrderService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KonakOrderService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/konak/service/KonakOrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+            <state relative-caret-position="905">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -907,7 +904,7 @@
       <updated>1472614982877</updated>
       <workItem from="1472614988681" duration="14562000" />
       <workItem from="1473213980936" duration="6478000" />
-      <workItem from="1473225535071" duration="15526000" />
+      <workItem from="1473225535071" duration="15619000" />
     </task>
     <task id="LOCAL-00001" summary="Completed the API all test using Firefox RESTClient">
       <created>1472709023253</created>
@@ -916,11 +913,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472709023253</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed the API call for Get,GetID and POST, moved DAO to Service layer">
+      <created>1473344499369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473344499369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36566000" />
+    <option name="totallyTimeSpent" value="36659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1447,16 +1451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/konak/service/KonakOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/konak/model/KonakOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1472,6 +1466,16 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#745#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/konak/service/KonakOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
