@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.Date;
 
 @Entity
 public class KonakOrder {
@@ -24,6 +25,14 @@ public class KonakOrder {
     private String billingZipCode;
     private String billingCountry;
     private String orderComment;
+
+    private String createdBy;
+    private String updatedBy;
+    private String createdTAD;
+    private String updatedTAD;
+
+    private boolean emailSent;
+    private String emailSentTAD;
 
     public Long getId() {
         return id;
@@ -135,5 +144,53 @@ public class KonakOrder {
 
     public void setOrderComment(String orderComment) {
         this.orderComment = orderComment;
+    }
+
+    public String getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public String getUpdatedBy() {
+        return updatedBy;
+    }
+
+    public void setUpdatedBy(String updatedBy) {
+        this.updatedBy = updatedBy;
+    }
+
+    public String getCreatedTAD() {
+        return createdTAD;
+    }
+
+    public void setCreatedTAD(String createdTAD) {
+        this.createdTAD = createdTAD;
+    }
+
+    public String getUpdatedTAD() {
+        return updatedTAD;
+    }
+
+    public void setUpdatedTAD(String updatedTAD) {
+        this.updatedTAD = updatedTAD;
+    }
+
+    public boolean isEmailSent() {
+        return emailSent;
+    }
+
+    public void setEmailSent(boolean emailSent) {
+        this.emailSent = emailSent;
+    }
+
+    public String getEmailSentTAD() {
+        return emailSentTAD;
+    }
+
+    public void setEmailSentTAD(String emailSentTAD) {
+        this.emailSentTAD = emailSentTAD;
     }
 }
