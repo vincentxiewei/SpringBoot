@@ -30,9 +30,13 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-mail:1.4.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.5" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
           <element id="library" level="project" name="Maven: com.h2database:h2:1.4.192" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-rest:1.4.0.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.1" />
@@ -67,8 +71,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.3.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.2.RELEASE" />
           <element id="library" level="project" name="Maven: javax:javaee-api:7.0" />
-          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.5" />
-          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
