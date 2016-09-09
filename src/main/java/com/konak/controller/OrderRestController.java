@@ -62,9 +62,13 @@ public class OrderRestController {
 }
 /*
 {
-    "firstName": "Ryan",
-    "lastName": "Baxter",
-    "email": "ryan@example.com",
-    "orderComment": "This is the order comment"
+    "firstName": "Vincent",
+    "middleName": "W",
+    "lastName": "Xie",
+    "contactAreaCode": "02",
+    "contactNumber": "12345678",
+    "email": "vincentxieweitest@gmail.com",
+    "productName": "NICE Billing Suite v2.5",
+    "orderComment": "This is the order comment testing"
 }
  */

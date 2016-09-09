@@ -24,6 +24,7 @@ public class KonakOrder {
     private String billingState;
     private String billingZipCode;
     private String billingCountry;
+    private String productName;
     private String orderComment;
 
     private String createdBy;
@@ -192,5 +193,13 @@ public class KonakOrder {
 
     public void setEmailSentTAD(String emailSentTAD) {
         this.emailSentTAD = emailSentTAD;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 }
