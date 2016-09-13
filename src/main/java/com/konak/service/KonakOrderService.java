@@ -45,6 +45,8 @@ public class KonakOrderService {
             newOrder.setEmailSentTAD(currentDateString);
             newOrder = repo.save(newOrder);
         }
+        //if (true)
+        //throw new RuntimeException("Error sending email");
 
         return newOrder;
     }
